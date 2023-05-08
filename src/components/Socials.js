@@ -53,7 +53,7 @@ const Socials = () => {
           <BsFillPersonLinesFill size={32} />
         </>
       ),
-      href: "/Rezume.pdf",
+      href: "/Rezumes.pdf",
       // style: "rounded-br-md",
       style:"hover:text-red-400 hover:scale-125 duration-200",
       download: true,
