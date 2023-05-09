@@ -10,7 +10,7 @@ const Socials = () => {
       id: 1,
       child: (
         <>
-           <AiFillLinkedin size={32} />
+           <AiFillLinkedin />
         </>
       ),
       href: "https://www.linkedin.com/in/madan-raj-7b8b23232/",
@@ -20,7 +20,7 @@ const Socials = () => {
       id: 2,
       child: (
         <>
-          <FaGithub size={32} />
+          <FaGithub  />
         </>
       ),
       href: "https://github.com/Madanraj0519",
@@ -30,7 +30,7 @@ const Socials = () => {
       id: 3,
       child: (
         <>
-           <AiFillTwitterCircle size={32} />
+           <AiFillTwitterCircle  />
         </>
       ),
       href: "https://twitter.com/Madan__raj",
@@ -40,7 +40,7 @@ const Socials = () => {
       id: 4,
       child: (
         <>
-           <AiOutlineMail size={32} />
+           <AiOutlineMail />
         </>
       ),
       href: "mailto:madan__raj@hotmail.com",
@@ -50,7 +50,7 @@ const Socials = () => {
       id: 5,
       child: (
         <>
-          <BsFillPersonLinesFill size={32} />
+          <BsFillPersonLinesFill  />
         </>
       ),
       href: "/Rezumes.pdf",

@@ -25,7 +25,7 @@ const Home = () => {
               { <Socials /> }
 
               
-              <div className="mx-auto  rounded-full w-64 h-64 overflow-hidden sm:w-72 sm:h-72 md:h-96 md:w-96 md:rounded-full">
+              <div className="mx-auto  rounded-full w-52 h-52 overflow-hidden sm:w-72 sm:h-72 md:h-96 md:w-96 md:rounded-full">
                    <img src={HeroImage} alt='HeroImage' layout="fill" objectFit="cover" />
               </div>
 
