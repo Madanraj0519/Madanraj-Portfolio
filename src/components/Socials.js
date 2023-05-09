@@ -64,9 +64,9 @@ const Socials = () => {
   return (
     <div className="text-2xl flex justify-center gap-10 py-3 text-gray-500">
         
-     <nav className="nav max-w-full flex align-middle pointer-events-none hover:pointer-events-auto">
+     <nav className="nav max-w-full flex align-middle pointer-events-none hover:pointer-events-auto -mt-8 sm:mt-0">
 
-      <h4 className="sm-header text-2xl cursor-pointer pointer-events-auto text-teal-600">Follow me on</h4>
+      <h4 className="sm-header text-2xl cursor-pointer pointer-events-auto text-teal-600 ">Follow me on</h4>
 
     <div className="line w-40 h-1 bg-gray-600 ml-4 mt-4 origin-left relative"></div>
 
@@ -78,7 +78,7 @@ const Socials = () => {
           links.map(({ id, child, href, style, download}) => (
 
 
-          <li className="nav-item">
+          <li className="nav-item mt-1 sm:mt-0">
             <a href={href} aria-label='LinkedIn' download={download}
                 rel='noreferrer' target={'_blank'}  className="nav-link text-2xl sm:text-4xl">
                     <div className={style}>
