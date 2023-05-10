@@ -54,7 +54,6 @@ const Socials = () => {
         </>
       ),
       href: "/Rezumes.pdf",
-      // style: "rounded-br-md",
       style:"hover:text-red-400 hover:scale-125 duration-200",
       download: true,
     },
@@ -62,7 +61,7 @@ const Socials = () => {
 
 
   return (
-    <div className="text-2xl flex justify-center gap-10 py-3 text-gray-500">
+    <div className="text-2xl flex justify-center gap-10 py-3 text-gray-500 ">
         
      <nav className="nav max-w-full flex align-middle pointer-events-none hover:pointer-events-auto -mt-8 sm:mt-0">
 
